@@ -1,0 +1,92 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Recipe styles */
+  .recipe {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  .recipe h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .recipe p {
+    margin-bottom: 20px;
+  }
+  
+  .ingredients {
+    display: none;
+  }
+  
+  .ingredients-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Button styles */
+  button {
+    background-color: maroon; /* Change the background color to purple */
+  color: yellow; /* Change the text color to yellow */
+  border: none; /* Remove the border */
+  padding: 10px 20px; /* Add padding for better spacing */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  button:hover {
+    opacity: 0.8; 
+  }
+
+  h2 {
+    color: orange; 
+  }

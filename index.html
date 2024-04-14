@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeff's CookBook</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Jeff's Concoctions</h1>
+  </header>
+  
+  <section id="form">
+    <h2>The Formula to a Happy Tummy</h2>
+    <div class="form" id="form1">
+      <h3>Steak Frites with Chimicurri</h3>
+      <p>A universal, versatile steak dish with parmesan truffle frites and an oil based chimicurri.</p>
+      <button onclick="toggleIngredients('ingredients1')">Show Ingredients</button>
+      <ul class="ingredients" id="ingredients1">
+        <li>Steak, cut and temp of your choice</li>
+        <li>Golden potatoes cut in thinly shoestring style shape. </li>
+        <li>Truffle oil</li>
+        <li>Parmesan cheese</li>
+        <li>Black pepper</li>
+        <li>Salt</li>
+        <li>Cilantro</li>
+        <li>Parsley</li>
+        <li>Red or white wine vinegar</li>
+        <li>Olive oil</li>
+        <li>Garlic</li>
+        <li>Oregano</li>
+        <li>Chili powder</li>
+        <li>Onions</li>
+      </ul>
+      <button onclick="toggleInstructions('instructions1')">A Quick How To</button>
+      <div id="instructions1" class="instructions">
+         <p> After cooking the steak to your preferred temperature, blend the oil, vinegar, cilantro, onions, and seasoning
+             to make the chimchurri sauce. Fry potatoes until golden brown. Lighty salt , plate, and enjoy! </p>
+      </div>
+    </div>
+
+    <div class="form" id="form2">
+      <h3>Grilled Cheese</h3>
+      <p>The original sandwich everyone loves.</p>
+      <button onclick="toggleIngredients('ingredients2')">Show Ingredients</button>
+      <ul class="ingredients" id="ingredients2">
+        <li>Bread of your choice. My choice will be Sourdough</li>
+        <li> The cheese of your choice. My choice will be  provolone and monterey jack.</li>
+        <li>Butter</li>
+      </ul>
+      <button onclick="toggleInstructions('instructions2')">A Quick How To</button>
+      <div id="instructions2" class="instructions">
+         <p> Stack your desired amount of cheese between two slices of bread.
+        Place butter in a pan on medium heat. Season between bread if desire, toast both sides, plate and enjoy!</p>
+      </div>
+    </div>
+
+    <div class="form" id="form3">
+      <h3>Quick Blueberry Pancakes</h3>
+      <p>Of course they don't have to be blueberry, but why not right? </p>
+      <button onclick="toggleIngredients('ingredients3')">Show Ingredients</button>
+      <ul class="ingredients" id="ingredients3">
+        <li>Just add water pancake mix</li>
+        <li> Eggs</li>
+        <li>Butter</li>
+        <li> Blueberries</li>
+        <li>Milk</li>
+      </ul>
+      <button onclick="toggleInstructions('instructions3')">A Quick How To</button>
+      <div id="instructions3" class="instructions">
+         <p> Crack two eggs into a bowl of pancake mix and add milk to mix smoothly. 
+    After mixing thoroughly, add blueberries and heat pan on medium heat.
+    Pour pancake mix into plan, wait 2-3 mins or when pancake starts to bubble.
+    Flip, allow sides to cook evenly. Allow rest, apply butter and syrup. Enjoy.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contact: jhhbbart@memphis.edu</p>
+    <p>About Us: We are passionate foodies who love to share delicious recipes!</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
